@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pocketpal/static/css/main.7b43a957.css",
-    "main.js": "/pocketpal/static/js/main.d0c4dbcc.js",
+    "main.js": "/pocketpal/static/js/main.441fbf4a.js",
     "static/js/787.151be383.chunk.js": "/pocketpal/static/js/787.151be383.chunk.js",
     "index.html": "/pocketpal/index.html",
     "main.7b43a957.css.map": "/pocketpal/static/css/main.7b43a957.css.map",
-    "main.d0c4dbcc.js.map": "/pocketpal/static/js/main.d0c4dbcc.js.map",
+    "main.441fbf4a.js.map": "/pocketpal/static/js/main.441fbf4a.js.map",
     "787.151be383.chunk.js.map": "/pocketpal/static/js/787.151be383.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b43a957.css",
-    "static/js/main.d0c4dbcc.js"
+    "static/js/main.441fbf4a.js"
   ]
 }
