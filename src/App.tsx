@@ -4,8 +4,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Mobile from "./pages/Mobile";
 import Desktop from "./pages/Desktop";
+import Mobile from "./pages/Mobile";
 import Slide1691 from "./pages/Slide1691";
 import { useEffect } from "react";
 
@@ -29,7 +29,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/desktop":
+      case "/mobile":
         title = "";
         metaDescription = "";
         break;
@@ -55,8 +55,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Mobile />} />
-      <Route path="/desktop" element={<Desktop />} />
+      <Route path="/" element={<Desktop />} />
+      <Route path="/mobile" element={<Mobile />} />
       <Route path="/slide-169-1" element={<Slide1691 />} />
     </Routes>
   );
