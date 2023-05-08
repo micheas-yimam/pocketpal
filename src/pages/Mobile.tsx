@@ -1,6 +1,10 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
 import styles from "./Mobile.module.css";
 const Mobile: FunctionComponent = () => {
+  const onButtonClick = useCallback(() => {
+    window.open("https://buy.stripe.com/00g14igsO7j4dry144");
+  }, []);
+
   return (
     <div className={styles.mobile}>
       <div className={styles.title}>
@@ -11,7 +15,7 @@ const Mobile: FunctionComponent = () => {
       <video className={styles.pocketpaldemov11} controls autoPlay muted loop>
         <source src="/pocketpaldemov12.mp4" />
       </video>
-      <button className={styles.button} autoFocus>
+      <button className={styles.button} autoFocus onClick={onButtonClick}>
         <div className={styles.startNow}>Start Now</div>
       </button>
       <div className={styles.haveThePowerContainer}>
