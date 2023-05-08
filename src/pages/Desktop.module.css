@@ -1,0 +1,88 @@
+.pocketpal {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.sentence1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--iris-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.pocketpaldemov11,
+.title {
+  position: absolute;
+  top: 166px;
+}
+.title {
+  left: 20px;
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pocketpaldemov11 {
+  height: calc(100% - 337px);
+  right: 147.51px;
+  bottom: 171px;
+  width: 319.49px;
+  opacity: 0.9;
+}
+.startNow {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--base-color-white);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: var(--iris-100);
+  position: absolute;
+  right: 120px;
+  bottom: 45px;
+  border-radius: var(--br-5xs);
+  width: 374px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.haveThePower {
+  margin: 0;
+}
+.haveThePowerContainer {
+  position: absolute;
+  top: 414px;
+  left: 60px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+  width: 335px;
+  height: 57px;
+}
+.desktop {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 917px;
+  text-align: left;
+  font-size: var(--font-size-91xl);
+  color: var(--base-color-white);
+  font-family: var(--font-inter);
+}

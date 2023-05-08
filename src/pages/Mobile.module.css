@@ -1,0 +1,87 @@
+.pocketpal {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.sentence1,
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+.sentence1 {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--iris-100);
+  flex-direction: row;
+  padding: var(--padding-base);
+  justify-content: space-between;
+}
+.title {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 360px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-5xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.pocketpaldemov11 {
+  position: absolute;
+  top: calc(50% - 238px);
+  left: calc(50% - 132px);
+  width: 263px;
+  height: 436px;
+  opacity: 0.9;
+}
+.startNow {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.24px;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--base-color-white);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs);
+  background-color: var(--iris-100);
+  position: absolute;
+  right: 8px;
+  bottom: 28px;
+  border-radius: var(--br-5xs);
+  width: 374px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.haveThePower {
+  margin: 0;
+}
+.haveThePowerContainer {
+  position: absolute;
+  top: 641px;
+  left: 43px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  display: inline-block;
+  width: 335px;
+  height: 57px;
+}
+.mobile {
+  position: relative;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 844px;
+  text-align: left;
+  font-size: 65px;
+  color: var(--base-color-white);
+  font-family: var(--font-inter);
+}
