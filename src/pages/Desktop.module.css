@@ -3,36 +3,35 @@
   letter-spacing: 0.01em;
   font-weight: 600;
 }
+.sentence1,
+.title {
+  display: flex;
+  align-items: flex-start;
+}
 .sentence1 {
   align-self: stretch;
   border-radius: var(--br-base);
   background-color: var(--iris-100);
-  display: flex;
   flex-direction: row;
   padding: var(--padding-base);
-  align-items: flex-start;
   justify-content: space-between;
 }
-.pocketpaldemov11,
 .title {
   position: absolute;
   top: 166px;
-}
-.title {
   left: 20px;
   width: 580px;
-  display: flex;
   flex-direction: column;
   padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-5xs);
   box-sizing: border-box;
-  align-items: flex-start;
   justify-content: flex-start;
 }
 .pocketpaldemov11 {
-  height: calc(100% - 337px);
+  position: absolute;
   right: 147.51px;
   bottom: 171px;
   width: 319.49px;
+  height: 580px;
   opacity: 0.9;
 }
 .startNow {
@@ -65,7 +64,7 @@
 }
 .haveThePowerContainer {
   position: absolute;
-  top: 414px;
+  bottom: 446px;
   left: 60px;
   font-size: 24px;
   letter-spacing: 1px;

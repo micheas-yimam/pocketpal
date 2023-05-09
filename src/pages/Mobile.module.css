@@ -18,8 +18,8 @@
 }
 .title {
   position: absolute;
-  top: 17px;
-  left: 0;
+  top: 13px;
+  left: calc(50% - 180px);
   width: 360px;
   flex-direction: column;
   padding: var(--padding-5xs) 0 var(--padding-5xs) var(--padding-5xs);
@@ -28,7 +28,7 @@
 }
 .pocketpaldemov11 {
   position: absolute;
-  top: calc(50% - 238px);
+  top: calc(50% - 268px);
   left: calc(50% - 132px);
   width: 263px;
   height: 436px;
@@ -49,10 +49,10 @@
   padding: var(--padding-xs);
   background-color: var(--iris-100);
   position: absolute;
-  right: 8px;
-  bottom: 28px;
+  bottom: 46px;
+  left: calc(50% - 172px);
   border-radius: var(--br-5xs);
-  width: 374px;
+  width: 360px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -64,8 +64,8 @@
 }
 .haveThePowerContainer {
   position: absolute;
-  top: 641px;
-  left: 43px;
+  bottom: 167px;
+  left: 42px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 15px;
