@@ -65,7 +65,7 @@
 .haveThePowerContainer {
   position: absolute;
   bottom: 446px;
-  left: 60px;
+  left: calc(50% - 540px);
   font-size: 24px;
   letter-spacing: 1px;
   line-height: 22px;
